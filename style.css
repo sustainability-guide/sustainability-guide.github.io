@@ -1,4 +1,12 @@
+body {
+  background-color: #EFEA5A;
+}
+
 h1 {
-  color: yellow;
-  
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
 }
