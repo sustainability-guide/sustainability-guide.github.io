@@ -3,7 +3,7 @@
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 body {
-  background-image:url('images/bees.gif');
+  background-image:url('../images/bees.gif');
   background-size: 100%;
   background-repeat: repeat-y;
   background-attachment: fixed;
