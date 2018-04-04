@@ -20,19 +20,21 @@ h1 {
   margin-top: 250px;
   margin-bottom: 40px;
 }
-li {
+li.pages {
   display: inline;
   padding: 0px;
  }
-h1. li {
+h1 li.pages {
   padding: : 60px;
 }
-a {
+a.pages {
   color: black;
   text-decoration: none;
   font-size: 30px;
+  display: inline;
+  padding: 0px;
 }
-a:hover {
+a.pages:hover {
     color: white;
     font-size: 40px;
 }
@@ -44,9 +46,7 @@ a:hover {
     text-align: center;
 }
 
-.slideshow-container {
-
-}
+/*Circles on index*/
 
 /*Social Media Buttons*/
 [class^="entypo-"]:before,
