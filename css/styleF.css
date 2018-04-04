@@ -12,6 +12,11 @@ body {
   background-color: #FEE842;
   font-color: black;
 }
+/*travelling style*/
+
+.T {
+  text-align: center;
+}
 
 .img-footer {
     height: auto;
