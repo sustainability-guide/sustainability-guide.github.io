@@ -1,6 +1,7 @@
 /* New CSS */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
+
 body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-style: normal;
@@ -11,6 +12,16 @@ body {
   background-color: #FEE842;
   font-color: black;
 }
+
+.img-footer {
+    height: auto;
+    width: auto;
+    max-height: 700px;
+    max-width: 700px;
+}
+
+/* NAV BAR*/
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -70,6 +81,8 @@ body {
     max-width: 250px;
 }
 
+/* SLIDE SHOW */
+
 .carousel-caption {
   top: 10%;
   transform: translateY(-10%);
@@ -82,8 +95,6 @@ body {
   width:640px;
   height:360px;
 }
-
-/* SLIDE SHOW */
 
 @media (max-width: 600px) {
   .carousel-caption {
@@ -196,6 +207,22 @@ textarea { height: 80px; resize: none; }
   font-size: 1.2em;
   border: none;
   height: 30px;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  background-color: black;
+  padding: 3%;
+  color: white;
+  max-height: 300px;
+}
+
+.img-footer {
+    height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 250px;
 }
 
 /*Social Media Buttons*/
