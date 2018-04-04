@@ -13,6 +13,11 @@ body {
   color: black;
   text-align: center;
 }
+/*travelling style*/
+
+.T {
+  text-align: center;
+}
 
 .img-footer {
     height: auto;
