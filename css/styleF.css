@@ -6,11 +6,12 @@ body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-style: normal;
   font-variant: normal;
-  font-weight: 500;
+  font-weight: ;
   margin: 0 auto;
   padding: 0 auto;
   background-color: #FEE842;
-  font-color: black;
+  color: black;
+  text-align: center;
 }
 
 .img-footer {
@@ -134,17 +135,8 @@ body {
   }
 }
 
-h1 {
+.slider {
   background: rgba(255,255,255,0.5);
-  font-weight: bolder;
-}
-
-h2 {
-  font-weight: bolder;
-  padding-bottom: 30px;
-}
-
-h4 {
   font-weight: bolder;
 }
 
