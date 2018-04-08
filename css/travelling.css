@@ -2,4 +2,40 @@
 .T {
   text-align: center;
   margin: 0 auto;
+  font-weight: bold;
+}
+
+.T2 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.travelling {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.ecopassenger {
+  padding-bottom: 20px;
+}
+
+.walkit {
+  padding-bottom: 20px;
+}
+
+.tfgm {
+  padding-bottom: 20px;
+}
+
+.cycling {
+  padding-bottom: 20px;
+}
+
+.blablacar {
+  padding-bottom: 20px;
 }
