@@ -120,11 +120,13 @@ body {
   }
   #icon {
     max-width: 150px;
+    margin: 1% auto;
   }
   h2 {
     font-size: 1.7em;
     padding-bottom: 10px;
   }
+
 }
 
 .carousel-inner .item img {
@@ -135,6 +137,7 @@ body {
   margin: 4% auto;
 
 }
+
 #icon {
   max-width: 200px;
   margin: 1% auto;
@@ -233,14 +236,15 @@ footer {
   background-color: black;
   padding: 3%;
   color: white;
-  max-height: 300px;
+  max-height: auto;
 }
 
 .img-footer {
     height: auto;
     width: auto;
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 200px;
+    max-width: 200px;
+    padding: 15px;
 }
 
 /*Social Media Buttons*/
