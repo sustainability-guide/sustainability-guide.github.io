@@ -2,6 +2,7 @@
 .T {
   text-align: center;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .T2 {
@@ -11,8 +12,8 @@
 }
 
 .travelling {
-  text-align: justify;
-  font-size: 18px;
+  text-align: center;
+  font-size: 20px;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 20px;
