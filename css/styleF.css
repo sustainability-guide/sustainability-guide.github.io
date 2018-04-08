@@ -38,6 +38,41 @@ body {
   color: black;
 }
 
+.bigger {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.daily {
+border-radius: 15px;
+}
+
+.T {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  padding-bottom:10px;
+}
+
+.T2 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.travelling {
+  text-align: center;
+  font-size: 19px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.Tpics {
+  padding-bottom: 20px;
+}
+
 /* NAV BAR*/
 
 .navbar {
