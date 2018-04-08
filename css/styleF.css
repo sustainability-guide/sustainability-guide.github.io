@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   background-color: #FEE842;
-  font-color: black;
+  color: black;
+  text-align: center;
 }
 
 
