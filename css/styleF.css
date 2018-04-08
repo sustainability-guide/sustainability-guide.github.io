@@ -136,7 +136,7 @@ body {
   }
 }
 
-h1 {
+.slider {
   background: rgba(255,255,255,0.5);
   font-weight: bolder;
 }
