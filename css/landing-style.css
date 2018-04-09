@@ -56,7 +56,10 @@ body {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (mix-width: 600px) {
-  .Title {
+  #line1 {
+    display: none;
+  }
+  #line2 {
     display: none;
   }
 }
