@@ -1,14 +1,16 @@
 /* New CSS */
 @import url(http://www.entypo.com/);
 
-
+* {
+  margin: 0;
+}
 body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0!important;
+  padding: 0!important;
   background-color: #FEE842;
   color: black;
   text-align: center;
@@ -188,6 +190,11 @@ border-radius: 15px;
   height:360px;
   padding-top: 0px;
 }
+
+.carousel-inner {
+  margin-top: -20px;
+}
+
 
 @media (max-width: 600px) {
   .carousel-caption {

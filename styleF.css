@@ -1,14 +1,16 @@
 /* New CSS */
 @import url(http://www.entypo.com/);
 
-
+* {
+  margin: 0;
+}
 body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0!important;
+  padding: 0!important;
   background-color: #FEE842;
   color: black;
   text-align: center;
@@ -113,23 +115,20 @@ border-radius: 15px;
   }
 
 }
-
 /* NAV BAR*/
 
 .navbar {
-  margin-bottom: 0;
-  border-radius: 0;
   background-color: black;
   color: #FFF;
   font-size: 1.2em;
-  border: 0;
-
+  max-height: auto;
+  margin-bottom: 0!important;
 }
 
 .navbar-header {
   height: 80px;
   line-height: 0px;
-  padding-top: 0;
+  max-height: auto;
 }
 
 .navbar .navbar-nav {
@@ -177,6 +176,7 @@ border-radius: 15px;
 
 /* SLIDE SHOW */
 
+
 .carousel-caption {
   top: 10%;
   transform: translateY(-10%);
@@ -188,7 +188,13 @@ border-radius: 15px;
 .carousel-inner > .item > img {
   width:640px;
   height:360px;
+  padding-top: 0px;
 }
+
+.carousel-inner {
+  margin-top: -20px;
+}
+
 
 @media (max-width: 600px) {
   .carousel-caption {
@@ -220,6 +226,10 @@ border-radius: 15px;
 
 .carousel-inner .item img {
   width: 100%;
+}
+
+.carousel-inner {
+  padding-top: 0px;
 }
 
 .container {
