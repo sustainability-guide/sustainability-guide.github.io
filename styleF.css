@@ -218,8 +218,8 @@ border-radius: 15px;
     font-size: 30px;
   }
   .daily {
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 400px;
   }
 
 }
@@ -366,8 +366,8 @@ footer {
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
   .daily {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 300px;
+    max-height: 300px;
   }
   .resturants {
     text-align: center;
