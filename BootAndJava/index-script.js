@@ -1,14 +1,3 @@
-// hover image landing page //
-$(document).ready(function () {
-    $('.logo')
-        .mouseover(function () {
-        $(this).attr("src", "../img/DashDiagFinal.png");
-    })
-        .mouseout(function () {
-        $(this).attr("src", "../img/WhiteDashDiag.png");
-    });
-});
-
 // pop up contact form //
 $(function() {
 
