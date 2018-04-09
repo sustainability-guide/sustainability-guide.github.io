@@ -1,5 +1,5 @@
 /* New CSS */
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://www.entypo.com/);
 
 
 body {
@@ -12,6 +12,10 @@ body {
   background-color: #FEE842;
   color: black;
   text-align: center;
+}
+
+p {
+  font-size: 20px;
 }
 
 
@@ -34,9 +38,6 @@ body {
   color: black;
 }
 
-.sneaky:active {
-  color: black;
-}
 
 .bigger {
   font-size: 36px;
@@ -50,8 +51,10 @@ border-radius: 15px;
 .T {
   text-align: center;
   margin: 0 auto;
-  font-weight: bold;
-  padding-bottom:10px;
+  font-weight: bolder;
+  font-size: 36px;
+  padding:20px;
+
 }
 
 .T2 {
@@ -70,7 +73,45 @@ border-radius: 15px;
 }
 
 .Tpics {
-  padding-bottom: 20px;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius:25px;
+  padding: 20px;
+}
+
+.Trav {
+  font-weight: bolder;
+}
+
+.resturants {
+  text-align: left;
+}
+
+.intro {
+  padding: 30px;
+}
+
+.OAA {
+  font-size: 18px;
+}
+
+.OT {
+  text-align: left;
+  font-size: 28px;
+}
+
+.OT:link {
+    color: black;
+  }
+
+.OT:hover {
+    color: white;
+  }
+
+.OT:visited {
+    color: black;
+  }
+
 }
 
 /* NAV BAR*/
@@ -160,6 +201,19 @@ border-radius: 15px;
   h2 {
     font-size: 1.7em;
     padding-bottom: 10px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .OAA {
+    font-size: 15px;
+  }
+  .bigger {
+    font-size: 30px;
+  }
+  .daily {
+    max-width: 500px;
+    max-height: 500px;
   }
 
 }
@@ -361,10 +415,18 @@ footer {
 // No media query since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+@media (max-width: 576px) {
+  .daily {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .resturants {
+    text-align: center;
+  }
+}
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) { ... }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { ... }

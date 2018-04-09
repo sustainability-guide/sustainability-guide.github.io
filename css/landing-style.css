@@ -26,18 +26,24 @@ body {
   -o-filter: blur(10px);
   filter:blur(10px);
 }
-.Titile {
-  position: fixed;
+.Title {
   bottom: 0;
   font-size: 50px;
-  align-content: center;
+  text-align: center;
   margin: 50px;
   color: white;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.5);
   line-height: 45px;
-  width: 100%;
   padding: 10px;
+  overflow: hidden;
+}
+#line1 {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+}
+#line2 {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .text-center {
@@ -49,10 +55,16 @@ body {
 // No media query since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+@media (mix-width: 600px) {
+  .Title {
+    display: none;
+  }
+}
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { ... }
