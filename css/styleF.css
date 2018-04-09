@@ -198,7 +198,7 @@ border-radius: 15px;
 
 @media (max-width: 600px) {
   .carousel-caption {
-    font-size: 15px;
+    display: 18px;
   }
   #icon {
     max-width: 150px;
@@ -432,6 +432,9 @@ footer {
   }
   .resturants {
     text-align: center;
+  }
+  .carousel-caption {
+    display: none;
   }
 }
 

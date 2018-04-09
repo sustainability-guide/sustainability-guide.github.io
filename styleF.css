@@ -433,7 +433,9 @@ footer {
   .resturants {
     text-align: center;
   }
-
+  .carousel-caption {
+    display: none;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
