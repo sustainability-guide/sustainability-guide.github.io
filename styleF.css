@@ -347,17 +347,78 @@ footer {
 }
 
 /*Social Media Buttons*/
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+[class^="entypo-"]:before,
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  margin: 0.5em 0;
+  clear: both;
+    background: transparent;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  color: white;
+  padding: 1em;
+  position: relative;
+  background: transparent;
+}
+.row i:hover {
+  border-radius: 50%;
+}
+.row i:not(:first-child) {
+  margin-left: 1em;
+}
+.row i:nth-child(1) {
+  color: #3b5998;
+  border: 2px solid #3b5998;
+}
+.row i:nth-child(1):hover {
+  color: white;
+  background: #3b5998;
+}
+.row i:nth-child(2) {
+  color: #00a0d1;
+  border: 2px solid #00a0d1;
+}
+.row i:nth-child(2):hover {
+  color: white;
+  background: #00a0d1;
+}
+.row i:nth-child(3) {
+  color: #db4a39;
+  border: 2px solid #db4a39;
+}
+.row i:nth-child(3):hover {
+  color: white;
+  background: #db4a39;
+}
+.row i:nth-child(4) {
+  color: #c8232c;
+  border: 2px solid #c8232c;
+}
+.row i:nth-child(4):hover {
+  color: white;
+  background: #c8232c;
+}
+.row i:nth-child(5) {
+  color: #ea4c89;
+  border: 2px solid #ea4c89;
+}
+.row i:nth-child(5):hover {
+  color: white;
+  background: #ea4c89;
 }
 
 /*Extra small devices (portrait phones, less than 576px)
